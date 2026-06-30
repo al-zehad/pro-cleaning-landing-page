@@ -28,8 +28,782 @@ button {
   cursor: pointer;
 }
 
-
-
+.sectionTop h2 {
+  max-width: 402px;
+  color: #111d15;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.sectionTopRight h3 {
+  color: #111d15;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sectionTopRight p {
+  max-width: 324px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 150%;
+  margin-top: 9px;
+}
+hr {
+  margin: 30px 0;
+  border: 0.75px solid #83a790;
+}
+.btnOne {
+  padding: 13px 24px;
+  background: #36b864;
+  border-radius: 4.5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.btnTwo {
+  color: #000;
+  padding: 13px 24px;
+  background: transparent;
+  border: 1px solid #666666;
+  border-radius: 4.5px;
+  font-size: 12px;
+  font-weight: 600;
+}
 /* All Common CSS Ends */
 
+/* Header Part Starts */
+#header {
+  padding: 18px 0;
+}
+.nav-link {
+  color: #4d4d4d;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: #36b864;
+  font-weight: 500;
+}
+#header .btnOne {
+  font-family: "Poppins", sans-serif;
+}
+/* Header Part Ends */
 
+/* Hero Section Starts */
+#hero {
+  background: url(../images/heroImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.heroContent span {
+  color: #111d15;
+  font-size: 15px;
+  line-height: 120%;
+}
+.heroContent h1 {
+  max-width: 458px;
+  color: #111d15;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 115%;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+.heroContent p {
+  max-width: 407px;
+  color: #666666;
+  font-size: 13.5px;
+  line-height: 22.5px;
+  padding-bottom: 30px;
+}
+.heroContent .btnTwo {
+  margin-left: 18px;
+}
+
+/* Hero Section Ends */
+
+/* Service Section Starts */
+#service {
+  margin-top: 112px;
+}
+#service .card {
+  margin-bottom: 56px;
+  border: none;
+}
+#service .card-title {
+  color: #111d15;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  padding: 12px 0;
+}
+#service .card-text {
+  max-width: 277px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 150%;
+  padding-bottom: 25px;
+}
+#service .cardBtnArrow {
+  color: #9d9d9d;
+  padding-left: 7.5px;
+  transition: all 0.3s;
+}
+#service .transparentBtn:hover {
+  border: 0.75px solid #00000000;
+  background: #36b864;
+  color: white;
+  .cardBtnArrow {
+    color: white;
+  }
+}
+.cardThree .nextService {
+  position: relative;
+}
+.cardThree .nextService button {
+  background: #36b864;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+}
+/* Service Section Ends */
+
+/* Quote Section Starts */
+#quote {
+  padding: 56px 0;
+}
+.quoteLeft span {
+  color: #111d15;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 120%;
+}
+.quoteLeft h2 {
+  max-width: 395px;
+  color: #111d15;
+  font-family: "Outfit", sans-serif;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-top: 18px;
+  padding-bottom: 24px;
+}
+.quoteLeft p {
+  max-width: 387px;
+  color: #666666;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+  padding-bottom: 39px;
+}
+/* Quote Section Ends */
+
+/* Team Section Starts */
+#team {
+  padding: 56px 0;
+}
+#team h2 {
+  max-width: 457px;
+}
+.teamCardFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.teamCard {
+  background: white;
+  border-radius: 23px;
+  border: 0.75px solid #111d1500;
+  transition: all 0.3s;
+}
+.teamCardImg {
+  width: 100%;
+}
+.teamCardImg img {
+  width: 100%;
+}
+.teamCard:hover {
+  border: 0.75px solid #83a790;
+}
+.memberDetails {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.teamCard h4 {
+  color: #111d15;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-top: 18px;
+  padding-bottom: 15px;
+}
+.rating {
+  color: #ff9800;
+  display: flex;
+  gap: 7px;
+}
+.rating .star {
+  max-width: 13.5px;
+  max-height: 12px;
+}
+.teamCard p {
+  max-width: 224px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 150%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.socialLinks {
+  color: #111d15;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.fa-brands {
+  cursor: pointer;
+}
+/* Team Section Ends */
+
+/* About Section Starts */
+#about {
+  padding: 56px 0;
+}
+.aboutRight h2 {
+  max-width: 394px;
+  color: #111d15;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.aboutRight p {
+  max-width: 394px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 160%;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.aboutPoints {
+  padding-bottom: 36px;
+}
+.pointFlex {
+  margin-top: 12px;
+  display: flex;
+  gap: 30px;
+}
+.pointFlex span {
+  width: 164px;
+  background: #f5f4f4;
+  color: #111d15;
+  border-radius: 3px;
+  padding: 9px 7.5px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.fa-circle-check {
+  width: 12px;
+  height: 12px;
+  color: #36b864;
+  margin-right: 6px;
+}
+.aboutBtn .btnOne {
+  padding: 9px 24px;
+  background: #36b864;
+  border-radius: 4.5px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.aboutBtn .btnTwo {
+  padding: 9px 24px;
+  background: transparent;
+  border: 0.75px solid #666666;
+  border-radius: 4.5px;
+  color: #111d15;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 18px;
+}
+/* About Section Ends */
+
+/* Pricing Section Starts */
+#pricing {
+  background: url("../images/pricingImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 69px;
+  padding-bottom: 278px;
+  text-align: center;
+}
+#pricing span {
+  color: white;
+  font-size: 15px;
+}
+#pricing h2 {
+  width: 413px;
+  margin: 9px auto 27px;
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.subscriiptionTime {
+  width: 190px;
+  margin: 0 auto;
+  padding: 4.5px 6px;
+  background: #f4f5f8;
+  border-radius: 150px;
+}
+.capsule {
+  padding: 5px 16px;
+  border-radius: 150px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.monthly {
+  background: #36b864;
+  color: white;
+}
+.yearly {
+  background: white;
+  color: #111d15;
+  box-shadow: 0 0 3.75px 0 #0000001a;
+}
+.pricingCard {
+  max-width: 300px;
+  background: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 56px;
+  padding: 22px 26px;
+  transition: all 0.3s;
+}
+.pricingCardOne {
+  margin-top: -250px;
+}
+.pricingCard:hover {
+  box-shadow: 0 3.75px 15px 0 #0000000d;
+}
+.pricingCard h5 {
+  color: #111d15;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+}
+.price {
+  background: #36b864;
+  border-radius: 7.5px;
+  color: white;
+  font-size: 12px;
+  line-height: 120%;
+  padding: 15px 30px;
+  margin-top: 18px;
+  margin-bottom: 27px;
+}
+.price span {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.pricingCard ul {
+  list-style-type: disc;
+  margin-bottom: 27px;
+}
+.pricingCard ul li {
+  color: #666666;
+  font-size: 12px;
+  line-height: 300%;
+}
+.pricingBtn {
+  text-align: center;
+}
+.pricingBtn button {
+  color: #111d15;
+  padding: 15px 82px;
+  background: transparent;
+  border: 0.75px solid #666666;
+  border-radius: 4.5px;
+  font-size: 12px;
+  line-height: 120%;
+  transition: all 0.3s;
+}
+.pricingBtn button:hover {
+  background: #36b864;
+  color: white;
+  border: 0.75px solid #66666600;
+}
+@media (min-width: 992px) {
+  .pricingCard {
+    margin-top: -250px;
+  }
+}
+/* Pricing Section Ends */
+
+/* Testimonial Section Starts */
+#testimonials {
+  padding: 56px 0;
+}
+.testimonialLeft h2 {
+  width: 375px;
+  color: #111d15;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.testimonialLeft p {
+  width: 314px;
+  padding-top: 18px;
+  padding-bottom: 27px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 160%;
+}
+.testimonialBtn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.testimonialBtn button {
+  width: 42px;
+  height: 42px;
+  background: white;
+  color: #36b864;
+  padding: 12px;
+  border: 1px solid #36b864;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.testimonialBtn button:hover {
+  background: #36b864;
+  color: white;
+}
+.reviewCard {
+  background: #36b864;
+  border-radius: 15px;
+  padding-top: 7.5px;
+  padding-right: 7.5px;
+  box-shadow: 0 3px 7.5px 0 #0000000d;
+}
+.reviewBg {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+}
+.reviewFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+.reviewCardRight {
+  position: relative;
+}
+.reviewCardRight img {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+.reviewCardRight h5 {
+  color: #111d15;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.clientProfession {
+  color: #666666;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 9px 0;
+}
+.reviewCardRight .rating {
+  margin-top: 9px;
+}
+.reviewCardRight p {
+  width: 274px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 12px;
+}
+/* Testimonial Section Ends */
+
+/* Blog Section Starts */
+#blog {
+  padding: 56px 0;
+  text-align: center;
+}
+.blogCard {
+  max-width: 280px;
+  background: white;
+  border-radius: 22.5px;
+  border: 0.75px solid #83a79000;
+  transition: all 0.3s;
+  padding-bottom: 15px;
+}
+.blogCard:hover {
+  border: 0.75px solid #83a790;
+  .overlay {
+    opacity: 0.3;
+  }
+}
+.overlay {
+  background: #36b864;
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.blogImg {
+  margin-bottom: 27px;
+  position: relative;
+}
+
+.blogCardContent {
+  padding: 0 18px 15px;
+}
+.blogCard span {
+  color: #666666;
+  font-size: 10.5px;
+  margin-right: 12px;
+}
+.blogCard h3 {
+  width: 238px;
+  margin: 0 auto;
+  color: #111d15;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 120%;
+  padding-top: 9px;
+  padding-bottom: 12px;
+}
+.blogCard p {
+  width: 240px;
+  margin: 0 auto;
+  color: #666666;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 150%;
+}
+.blogCard hr {
+  border: 0.75px solid #d8d8d8;
+  margin: 18px 0;
+}
+.blogCard a {
+  color: #666666;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24.8px;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+.blogCard a:hover {
+  color: white;
+  padding: 15px 88px;
+  background: #36b864;
+  border-radius: 11px;
+  font-weight: 600;
+  line-height: 120%;
+  text-decoration: none;
+}
+/* Blog Section Ends */
+
+/* Contact Section Starts */
+#contact {
+  padding: 56px 0;
+}
+.contactLeft h2 {
+  color: #111d15;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.contactInfo {
+  margin-top: 22px;
+  background: #fbfbfb;
+  width: 450px;
+  border: 0.75px solid #f3f3f3;
+  border-radius: 9px;
+  padding: 15px;
+}
+.contactInfoFlex {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.contactInfoFlex .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #36b864;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactDetails h6 {
+  color: #111d15;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 3%;
+}
+.contactDetails p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 120%;
+  margin-top: 6px;
+}
+
+.contactRight span {
+  color: #111d15;
+  font-size: 12px;
+  line-height: 120%;
+}
+.contactRight h2 {
+  color: #111d15;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-top: 6px;
+  padding-bottom: 12px;
+}
+.contactRight p {
+  max-width: 375px;
+  color: #666666;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: -1%;
+  margin-bottom: 8px;
+}
+.contactRight input,
+.contactRight textarea {
+  width: 100%;
+  background: white;
+  margin-top: 22px;
+  padding: 14px 15px;
+  border: 0.75px solid #f3f3f3;
+  border-radius: 3px;
+  box-shadow: 0 3px 3.75px 0 #00000008;
+}
+.contactRight textarea {
+  height: 66px;
+  resize: none;
+}
+.contactRight button {
+  margin-top: 22px;
+  padding: 9px 18px;
+  background: #36b864;
+  color: white;
+  border-radius: 4.5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+.contactRight input[placeholder],
+.contactRight textarea[placeholder] {
+  color: #666666;
+  font-size: 12px;
+}
+/* Contact Section Ends */
+
+/* Footer Section Starts */
+#footer {
+  padding-top: 75px;
+  padding-bottom: 15px;
+  background: #111d15;
+}
+.footerColOne p {
+  margin-top: 18px;
+  max-width: 267px;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 160%;
+}
+.footerLinksHeading {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.footerLink {
+  margin-top: 18px;
+}
+.footerLink a {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footerColFour input {
+  background: transparent;
+  width: 100%;
+  border: 0.75px solid #808080;
+  border-radius: 4.5px;
+  padding: 7.5px 12px;
+  margin-bottom: 18px;
+}
+.footerColFour input[placeholder] {
+  color: #9e9e9e;
+  font-size: 12px;
+}
+.footerRightBtn button {
+  background: #36b864;
+  padding: 12px 21px;
+  border-radius: 4.5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+#footer hr {
+  border: 0.75px solid #d9d9d9;
+  margin-top: 48px;
+}
+.copyRightMsg {
+  margin-top: 18px;
+  color: white;
+  font-size: 12px;
+  line-height: 120%;
+  text-align: center;
+}
+/* Footer Section Ends */
+
+/* Button hover effects start */
+
+.filledBtn {
+  transition: all 0.3s;
+}
+.filledBtn:hover {
+  background: #2ca255;
+}
+.transparentBtn {
+  transition: all 0.3s;
+}
+.transparentBtn:hover {
+  border: 0.75px solid #00000000;
+  background: #36b864;
+  color: white;
+}
+/* Button hover effects end */
